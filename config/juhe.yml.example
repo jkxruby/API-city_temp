@@ -1,0 +1,4 @@
+development:
+  api_key: "juhe api key"
+production:
+  api_key: "之后部署上production后的话，key放这里"
