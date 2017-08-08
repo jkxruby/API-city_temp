@@ -1,0 +1,19 @@
+<table class="table">
+  <tr>
+    <th>Juhe ID</th>
+    <th>Province</th>
+    <th>City</th>
+    <th>District</th>
+    <th>Temp</th>
+  </tr>
+
+  <%  @cities.each do |city| %>
+  <tr>
+    <td><%= city.juhe_id %></td>
+    <td><%= city.province %></td>
+    <td><%= city.city%></td>
+    <td><%= city.district %></td>
+    <td></td>
+  </tr>
+  <% end %>
+</table>
